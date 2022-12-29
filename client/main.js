@@ -75,7 +75,7 @@ const handleSubmit = async (e) => {
   const messageView = document.getElementById(uniqueId)
   loaderAnim(messageView)
 
-  const response = await fetch('http://localhost:3000',{
+  const response = await fetch('https://gptwork.onrender.com',{
     method: 'Post',
     headers: {
       'content-Type': 'application/json'
